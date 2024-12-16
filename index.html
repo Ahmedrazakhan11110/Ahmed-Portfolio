@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Raza | Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        nav {
+            background-color: #212121;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(120deg, rgba(33, 33, 33, 0.9), rgba(48, 48, 48, 0.9)), url('https://source.unsplash.com/1600x900/?technology,web');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #6200ea;
+            border: none;
+        }
+
+        .section-title {
+            font-weight: 600;
+            color: #bb86fc;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+        }
+
+        footer {
+            background-color: #212121;
+            text-align: center;
+            padding: 20px;
+            color: #9e9e9e;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #e0e0e0;
+        }
+
+        .nav-link:hover {
+            color: #bb86fc;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ahmed Raza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Ahmed Raza</h1>
+        <p>Frontend Developer | Crafting Exceptional Digital Experiences</p>
+        <a href="#projects" class="btn btn-primary mt-3">Explore My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a Frontend Developer with expertise in building dynamic, responsive, and aesthetically pleasing websites. My goal is to create seamless digital experiences that captivate users and exceed expectations.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-light" data-aos="fade-up">
+                        <div class="card-body">
+                            <h5 class="card-title">Relx Vape Shop</h5>
+                            <p class="card-text">Modern vape shop website with sleek design and user-friendly navigation.</p>
+                            <a href="https://ahmedrazakhan11110.github.io/MyclientProject/" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-light" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Task Manager</h5>
+                            <p class="card-text">A to-do list app to manage tasks effectively with a minimalistic interface.</p>
+                            <a href="https://ahmedrazakhan11110.github.io/TaskManageer/" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-light" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Platform</h5>
+                            <p class="card-text">A smooth shopping experience with easy navigation and fast checkout.</p>
+                            <a href="https://ahmedrazakhan11110.github.io/Ecommerce-Platform-/" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>If you're looking to collaborate or discuss opportunities, reach out to me!</p>
+            <a href="mailto:ahemedrazakhan11110@gmail.com" class="btn btn-primary">Email Me</a>
+            <a href="https://www.linkedin.com/in/ahmedraza0335" class="btn btn-primary">linkedin</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ahmed Raza. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
